@@ -11,7 +11,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use('power-queue');
+  api.use('powerqueue');
   api.use('test-helpers', 'server');
   api.use('tinytest');
 
